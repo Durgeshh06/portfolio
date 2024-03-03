@@ -1,0 +1,162 @@
+.div {
+  position: absolute;
+  text-align: center;
+}
+
+.taskbar {
+  position: absolute;
+  display: flex;
+  top: 0;
+  right: 0px;
+  background-color: rgb(48, 44, 49);
+  justify-content: space-around;
+  align-items: center;
+  border: 3px solid rgb(0, 0, 0);
+
+
+  height: 9%;
+  width: 100%;
+
+
+}
+
+.taskbar div {
+  color: white;
+  text-align: justify;
+
+}
+
+.taskbar a {
+  color: white;
+  padding: 14px 50px;
+  display: block;
+
+
+  text-decoration: none;
+
+}
+
+.content {
+  position: absolute;
+  top: 650px;
+  color: white;
+  width: 100%;
+
+  border-radius: 35px;
+}
+
+.leftcontainer {
+  position: absolute;
+  font-size: large;
+
+  height: 100%;
+  top: 140px;
+  left: 50px;
+  color: white;
+}
+
+.rightcontainer {
+  position: absolute;
+  top: 140px;
+  right: 0;
+
+  height: 100%;
+
+
+
+}
+
+.rightcontainer img {
+  margin: px 200px;
+  height: 70%;
+}
+
+table th,
+td {
+  padding: 60px 20px;
+
+
+}
+
+.skill {
+
+  text-align: center;
+}
+
+#projects {
+  text-align: center;
+
+  border-radius: 20px;
+  width: 100%;
+
+}
+#about{
+  text-align: center;
+}
+
+body {
+
+  background-color: rgb(77, 14, 136);
+  border-radius: 35px;
+}
+
+.taskbar ul {
+  list-style-type: none;
+  margin: 0;
+
+  padding: 0;
+  overflow: hidden;
+
+}
+
+.taskbar li {
+  float: right;
+  color: white;
+
+
+}
+
+
+.taskbar a:hover {
+
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  text-shadow: 50px;
+  border-radius: 25px;
+
+}
+
+
+
+
+footer {
+  background-color: #333;
+  text-align: center;
+  height: 50%;
+  width: 100%;
+  color: #fff;
+  padding: 20px;
+}
+
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display:inline;
+  margin-right: 10px;
+}
+
+footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: #ccc;
+  
+}
